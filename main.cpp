@@ -6,6 +6,8 @@
 using namespace std;
 
 int main() {
+    setlocale(LC_ALL, "RU");
+    double a, b, c, h;
     int choice;
     do {
         cout << "\n=== Командный проект: сборник расчётов ===\n";
